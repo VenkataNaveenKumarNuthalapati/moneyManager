@@ -1,0 +1,105 @@
+.bg-container {
+  min-height: 100vh;
+  padding: 50px;
+}
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.header-container span {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.money-cards-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 800px; */
+}
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.trans-container {
+  min-height: 350px;
+  width: 65%;
+  border-style: solid;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #cbd5e1;
+  border-width: 2px;
+}
+.bottom-container form {
+  width: 30%;
+  height: 100%;
+  border-style: solid;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #cbd5e1;
+  border-width: 2px;
+}
+.bottom-container button {
+  width: 30%;
+  margin-top: 10px;
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 6px;
+}
+.history-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-style: solid;
+  border-width: 1px;
+  border-color: ##cbd5e1;
+  margin-bottom: 0px;
+  font-weight: bold;
+  padding: 10px;
+}
+.history-header p {
+  flex-grow: 1;
+}
+input {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border: 1px solid #d7dfe9;
+  border-radius: 2px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-width: 157px;
+}
+
+select {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border: 1px solid #d7dfe9;
+  border-radius: 2px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-width: 157px;
+}
+
+.tranc-container {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}

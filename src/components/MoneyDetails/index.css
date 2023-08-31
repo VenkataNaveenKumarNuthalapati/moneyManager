@@ -1,0 +1,26 @@
+.money-details-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  flex-grow: 1;
+}
+.money-details-card img {
+  height: 60px;
+}
+.balance {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.expense {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
